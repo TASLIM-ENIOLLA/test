@@ -1,0 +1,100 @@
+@font-face{
+    font-family: permanent_marker;
+    src: url("../font/permanent_marker.ttf");
+}
+*{
+    letter-spacing: 2px !important;
+    font-family: permanent_marker;
+}
+html{
+    zoom: 70%;
+}
+#a{
+    min-height: 100vh;
+}
+.c{
+    width: 150px;
+    height: 7px;
+}
+.d{
+    max-width: 350px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.e{
+    min-height: 400px;
+    background: url(../images/1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.f{
+    min-height: 100%;
+}
+.g:after, .i:after, .j::after{
+    content: "";
+    display: block;
+    margin: auto;
+    width: 100px;
+    height: 5px;
+    background: #ffc107;
+}
+.h{
+    max-width: 50px;
+    min-width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.k > div{
+    border: thick solid #dc3545;
+    border-radius: 5px;
+    height: 200px;
+    background-position: center !important;
+}
+.k > div:first-child{
+    background: url(../images/1.jpg);
+    background-size: cover;
+}
+.k > div:nth-child(2){
+    background: url(../images/2.jpg);
+    background-size: cover;
+}
+.k > div:nth-child(3){
+    background: url(../images/3.jpg);
+    background-size: cover;
+}
+.k > div:nth-child(4){
+    background: url(../images/4.jpg);
+    background-size: cover;
+}
+.k > div:nth-child(5){
+    background: url(../images/5.jpg);
+    background-size: cover;
+}
+.k > div:last-child{
+    background: url(../images/1.jpg);
+    background-size: cover;
+}
+#musa{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/3.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.gg{
+    min-width: 320px;
+    max-width: 400px;
+    flex: 1;
+}
+/* @media (min-width: 576px){
+    .tm-st-one{min-width: 100%; max-width: 100%;}.tm-st-two{min-width: 50%; max-width: 50%;}.tm-st-three{min-width: 33.33%; max-width: 33.33%;}.tm-st-four{min-width: 25%; max-width: 25%;}.tm-st-five{min-width: 20%; max-width: 20%;}.tm-st-six{min-width: 16.67%; max-width: 16.67%;}.tm-st-seven{min-width: 14.29%; max-width: 14.29%;}
+}
+@media (min-width: 576px){
+    .tm-mt-one{min-width: 100%; max-width: 100%;}.tm-mt-two{min-width: 50%; max-width: 50%;}.tm-mt-three{min-width: 33.33%; max-width: 33.33%;}.tm-mt-four{min-width: 25%; max-width: 25%;}.tm-mt-five{min-width: 20%; max-width: 20%;}.tm-mt-six{min-width: 16.67%; max-width: 16.67%;}.tm-mt-seven{min-width: 14.29%; max-width: 14.29%;}
+}
+@media (min-width: 576px){
+    .tm-lt-one{min-width: 100%; max-width: 100%;}.tm-lt-two{min-width: 50%; max-width: 50%;}.tm-lt-three{min-width: 33.33%; max-width: 33.33%;}.tm-lt-four{min-width: 25%; max-width: 25%;}.tm-lt-five{min-width: 20%; max-width: 20%;}.tm-lt-six{min-width: 16.67%; max-width: 16.67%;}.tm-lt-seven{min-width: 14.29%; max-width: 14.29%;}
+}
+@media (min-width: 576px){
+    .tm-xt-one{min-width: 100%; max-width: 100%;}.tm-xt-two{min-width: 50%; max-width: 50%;}.tm-xt-three{min-width: 33.33%; max-width: 33.33%;}.tm-xt-four{min-width: 25%; max-width: 25%;}.tm-xt-five{min-width: 20%; max-width: 20%;}.tm-xt-six{min-width: 16.67%; max-width: 16.67%;}.tm-xt-seven{min-width: 14.29%; max-width: 14.29%;}
+} */
